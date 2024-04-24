@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dhurjati&family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Oficial </title>
+</head>
+<body>
+    <header class="header" id='top'> 
+      <!-- BLOCO RESPONSIVO (768PX) -->
+<div class=" containerH" id="OpenH"> 
+   
+   <button class="btn BtnH" type="button" onclick="HamburguerOn()" id="buttonH2"><i class="bi bi-x-circle" id="BtnHOff"></i></button>
+
+ <ol class="list-group" id="ListHam">
+    <li class="list-group-item ListH"><a href='#Conhecimento'  onclick="CloseH()"><button class="btn btnLH" ><i class="bi bi-briefcase"> CONHECIMENTOS</i></button></a></li>
+    <li class="list-group-item ListH "> <a href="#Projects" onclick="CloseH()"><button class="btn btnLH"><i class="">PROJETOS</i></button></a></li>
+    <li class="list-group-item ListH "> <a href="#Contacts" onclick="CloseH()"><button class="btn btnLH">Contatos</button></a></li>
+    <li class="list-group-item ListH "><button class="btn btnLH">Exit</button></li>
+ </ol>
+
+ <label class="label labelH">
+ <h5 class= "Copy" >&copy;Cauã Raulino</h5>
+ </label>
+</div>
+<!--///-->
+        <img src="imagens/LogoOficial.png" alt="" class="img">
+
+<nav class="navbar NavH">
+<ul class="list-group ListNav">
+    <li class="list-group-item ListItem"><a href="#Conhecimento"><button class="btn btnPC">CONHECIMENTOS</button></a></li>
+    <li class="list-group-item ListItem"><a href="#Projects"><button class="btn btnPC">PROJETOS</button></a></li>
+    <li class="list-group-item ListItem"><a href="#Contacts"><button class="btn btnPC">CONTATOS</button></a></li>
+    <li class="list-group-item ListItem"><button class="btn btnPC">Exit</button></li>
+</ul>
+
+<button class="btn BtnH" type="button" onclick="Hamburguer()" id='BtnChange'><i class="bi bi-list"id="BtnHOn"></i><i class="bi bi-list" id="BtnHOff"></i></button>
+
+</nav>
+</header>
+
+
+<div class="container-fluid container00">
+    
+<div class="container container-conteudo">
+    <h1 class="text-light" data-aos="fade-right" data-aos-duration="1500">Cauã Raulino</h1>
+     <p class="text-Prin" data-aos="fade" data-aos-duration="1500">Me chamo Cauã Raulino, tenho 22 anos, estou aprendendo linguagem de marcação e de programação, uma area em que me identifico muito, gosto dos desafios, de poder usar minha criatividade para fazer designs e layouts; Na area da programação em si ja faço coisas basicas como mostrar resultados de contas tanto usando o console, um alert ou no Dom, Usando ferramentas como if{}else{} , Switch( ){} , For( ){} , While( ) , DoWhile( ){} ; entre outras... </p>
+</div> 
+    <img src="imagens/CauaRaulino.png" alt="" class="imgProgram" data-aos="flip-left" data-aos-duration="2000">
+</div>
+
+
+
+<div class="container-fluid container01" id='Conhecimento' data-aos="flip-left" data-aos-duration="1500">
+    <h1 class="text-light text-center TitleCardContainer">CONHECIMENTOS</h1>
+    <div id="Controle" class="carousel slide caro" data-aos="fade-right" data-aos-duration="1500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <div class="card cartao1">
+                <img class="w-50" src="https://cdn-icons-png.flaticon.com/256/121/121537.png" alt="First slide" >
+                <p class="text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit nisi ducimus dolorem laudantium? Dolores, eaque amet. Placeat recusandae libero corrupti. Earum, iste vero? Perferendis a iusto iste dolorem vel dolor pariatur quaerat? Doloremque soluta est illo molestias, perspiciatis reprehenderit explicabo commodi quas quae, voluptas deleniti ex! Consectetur, sint earum.</p>
+             </div>
+          </div>
+
+          <div class="carousel-item ">
+             <div class="card cartao2">
+                <img class=" w-50" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/css-114-504273.png?f=webp" alt="Second slide" >
+                <p class="text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit nisi ducimus dolorem laudantium? Dolores, eaque amet. Placeat recusandae libero corrupti. Earum, iste vero? Perferendis a iusto iste dolorem vel dolor pariatur quaerat? Doloremque soluta est illo molestias, perspiciatis reprehenderit explicabo commodi quas quae, voluptas deleniti ex! Consectetur, sint earum.</p>
+             </div>
+          </div>
+
+          <div class="carousel-item">
+             <div class="card cartao3">
+                <img class="w-50 " src="https://cdn.iconscout.com/icon/premium/png-256-thumb/js-23-244632.png" alt="Third slide">
+                <p class="text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit nisi ducimus dolorem laudantium? Dolores, eaque amet. Placeat recusandae libero corrupti. Earum, iste vero? Perferendis a iusto iste dolorem vel dolor pariatur quaerat? Doloremque soluta est illo molestias, perspiciatis reprehenderit explicabo commodi quas quae, voluptas deleniti ex! Consectetur, sint earum.</p>
+             </div>
+          </div>
+
+          <div class="carousel-item">
+             <div class="card cartao4">
+                <img class="w-50" src="https://static-00.iconduck.com/assets.00/bootstrap-icon-256x256-pxrx4cf9.png" alt="four slide">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit nisi ducimus dolorem laudantium? Dolores, eaque amet. Placeat recusandae libero corrupti. Earum, iste vero? Perferendis a iusto iste dolorem vel dolor pariatur quaerat? Doloremque soluta est illo molestias, perspiciatis reprehenderit explicabo commodi quas quae, voluptas deleniti ex! Consectetur, sint earum.</p>
+             </div>
+          </div>
+
+    </div>
+        <a class="carousel-control-prev" href="#Controle" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon BtnCaro" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#Controle" role="button" data-slide="next">
+          <span class="carousel-control-next-icon BtnCaro" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container-fluid container02" id="Projects">
+
+      <div class="ContainerProjetos" id="GridPush">
+
+         <h1 class=" TitleCardContainer">Projetos<button class="btn btn-lg text-light" onclick="Criar()"><i class="bi bi-arrow-up-circle-fill"></i></button></h1>
+
+      <div class="card Card1">
+         <a href="https://raulino20.github.io/GTA6-SITE/#videoShow" target="_blank">
+            <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
+            </a> 
+             <h2>GTA 6 - Oficial</h2>
+            <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+        </div>
+      
+         <div class="card Card2">
+          <a href="https://raulino20.github.io/GRID-FINAL/" target="_blank">
+            <img src="imagens/surf.jpg" alt="" class="w-100 h-100" >
+          </a> 
+             <h2>D-GRID</h2>
+           <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+         </div>
+
+         <div class="card Card3" >
+            
+
+             <a href="" target="_blank">
+               <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100" >
+             </a> 
+             <h2>TITULO</h2>
+            <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+         </div>
+         
+         <div class="card Card4">
+             
+             <a href="" target="_blank">
+               <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
+             </a>
+             <h2>TITULO</h2>
+            <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+         </div>
+      </div>
+
+   <!-- BLOCO RESPONSIVOO (768PX < )-->
+
+         <h1 class="TituloR">Projetos</h1>
+ <div class="container ContainerResponsivo" data-aos="fade-right" data-aos-duration="1500">
+         <div class="card Card1">
+            <a href="https://raulino20.github.io/GTA6-SITE/#videoShow" target="_blank">
+               <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
+               </a> 
+                <h2>GTA 6 - Oficial</h2>
+               <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+           </div>
+         
+            <div class="card Card2">
+             <a href="https://raulino20.github.io/GRID-FINAL/" target="_blank">
+               <img src="imagens/surf.jpg" alt="" class="w-100 h-100">
+             </a> 
+                <h2>D-GRID</h2>
+              <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+            </div>
+   
+            <div class="card Card3">
+               <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
+                <h2>TITULO</h2>
+               <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+            </div>
+            
+            <div class="card Card4">
+               <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
+                <h2>TITULO</h2>
+               <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+            </div>  
+      </div>
+    </div>
+
+    <div class="footer Final w-100 " id='Contacts' >
+      <ul class="list-group ListFooter">
+         <a href="https://www.instagram.com/cauaraulino.15/" class="links"><li class="list-group-item ListF"><i class="bi bi-instagram"> </i>Cauaraulino.15</li></a>
+         <a href="https://github.com/raulino20" class="links"><li class="list-group-item ListF"><i class="bi bi-github"> </i> raulino20</li> </a>
+            <a href="" class="links"><li class="list-group-item ListF"><i class="bi bi-facebook"> </i> Cauã Raulino</li></a>
+
+      </ul>
+<label class="label label2"><h5 class="copy">&copy; Cauã Raulino</h5></label>
+ 
+
+   <div class="container ContainerFlecha">
+   <h3 class="m-0"><a href='#top'><i class="bi bi-arrow-up-circle-fill text-light  Flecha"></i></a> </h3>  
+   </div>
+</div>
+</body>
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</html>
