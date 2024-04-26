@@ -7,7 +7,7 @@
 
 body {
   height: auto;
-  background-image: url(../imagens/backgroundBody.jpg);
+  background-image: url(/imagens/backgroundBody.jpg);
   background-size: cover;
   gap: 0.5rem;
   background-attachment: fixed;
@@ -226,6 +226,10 @@ body {
     height: 100%;
   }
 }
+.container02 {
+  display: block;
+}
+
 @media (max-width: 425px) {
   .container01 {
     width: 100%;
@@ -246,34 +250,9 @@ body {
 
 @media (max-width: 768px) {
   .ContainerProjetos {
-    display: none;
-  }
-}
-.ContainerResponsivo {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .ContainerResponsivo {
-    width: auto;
+    display: block;
     height: 67vh;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto auto 1rem auto;
-  }
-}
-.TituloR {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .TituloR {
-    text-align: center;
-    font-family: monospace;
-    color: aliceblue;
-    text-decoration: underline;
-    display: block;
   }
 }
 .TitleCardContainer {
@@ -290,8 +269,10 @@ body {
 
 @media (max-width: 768px) {
   .TitleCardContainer {
-    margin: auto auto 1rem auto;
+    width: min-content;
+    margin: 0 auto;
     color: aliceblue;
+    background-color: rgba(62, 62, 62, 0);
     text-decoration: underline;
     font-family: monospace;
   }
@@ -301,6 +282,11 @@ body {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .card {
+    height: max-content;
+  }
+}
 .Card1 {
   grid-column: 1/4;
   grid-row: 2/3;
@@ -364,6 +350,7 @@ body {
 
 @media (max-width: 768px) {
   .card {
+    height: max-content;
     margin: 0.5rem auto 0.5rem auto;
   }
 }
@@ -503,7 +490,7 @@ body {
     align-self: center;
     position: absolute;
     margin: auto auto auto auto;
-    width: 100%;
+    width: 80%;
     height: 100%;
     z-index: 0;
   }
