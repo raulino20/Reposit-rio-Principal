@@ -344,8 +344,10 @@ body {
 
 @media (max-width: 1024px) {
   .caro {
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    overflow:scroll;
+    overflow:hidden;
+    height: 500px;
     margin: 0 auto;
     text-align: center;
   }
