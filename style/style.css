@@ -223,7 +223,7 @@ body {
     padding: 0;
     margin-top: 0.5rem 0 0.5rem 0;
     width: 90%;
-    height: max-width;
+    height: max-content;
   }
 }
 .container02 {
