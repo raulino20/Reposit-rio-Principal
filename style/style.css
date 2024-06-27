@@ -235,7 +235,7 @@ body {
     width: 100%;
     margin-top: 0.5rem;
     padding: 0;
-    height: auto;
+    height: 100vh;
   }
 }
 .ContainerProjetos {
