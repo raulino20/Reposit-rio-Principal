@@ -220,7 +220,7 @@ body {
 
 @media (max-width: 768px) {
   .container01 {
-    padding: 0;
+    padding: 1rem;
     margin-top: 0.5rem 0 0.5rem 0;
     width: 100%;
     height: max-content;
@@ -360,7 +360,6 @@ body {
   .caro {
     width: 100%;
     overflow:scroll;
-    overflow:hidden;
     height: 500px;
     margin: 0 auto;
     text-align: center;
