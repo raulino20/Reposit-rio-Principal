@@ -6,7 +6,7 @@
 }
 
 body {
-  height: max-content;
+  height: 100%;
   background-image: url(../imagens/backgroundBody.jpg);
   background-size: cover;
   gap: 0.5rem;
