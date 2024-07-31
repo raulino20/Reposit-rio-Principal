@@ -106,6 +106,7 @@ body {
 
 @media (max-width: 768px) {
   .containerH {
+    height:100vh;
     backdrop-filter: blur(50px);
     border: 0.1px solid rgb(162, 0, 243);
     position: absolute;
