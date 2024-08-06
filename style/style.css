@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   height: max-content;
   width:auto;
   background-image: url(../imagens/backgroundBody.jpg);
