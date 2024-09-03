@@ -118,6 +118,10 @@
   text-align: center;
 }
 
+#insta{
+ color: #a220df;
+}
+
 @media (max-width: 768px) {
   .ComeBackH {
     width: 100%;
