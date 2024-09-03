@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.Corpo {
+.body {
   height: max-content;
   width:auto;
   background-image: url(../imagens/backgroundBody.jpg);
@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
 }
 @media(max-width:768px){
-  .Corpo{
+  .body{
   height:auto;
   }
 
