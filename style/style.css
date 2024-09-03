@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .header { 
-    background-color: rgba(8, 8, 8, 0.958);
+    /*background-color: rgba(8, 8, 8, 0.958);*/
     z-index:5;
     position:fixed;
     margin-bottom:2rem;
