@@ -21,7 +21,7 @@
 
 .header {
   border-bottom: 1px solid rgb(162, 0, 243);
-  background-color: rgba(8, 8, 8, 0.958);
+  background-color: rgba(8, 8, 8, 0.58);
   padding: 1rem;
   width: 100%;
   display: flex;
@@ -29,7 +29,8 @@
 }
 
 @media (max-width: 768px) {
-  .header {
+  .header { 
+    background-color: rgba(8, 8, 8, 0.958);
     z-index:5;
     position:fixed;
     margin-bottom:2rem;
