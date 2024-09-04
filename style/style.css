@@ -219,7 +219,7 @@ body {
   margin: 0.5rem auto auto auto;
   padding: 0.5rem;
   width: 80%;
-  height: auto;
+  height: max-content;
 }
 
 @media (max-width: 768px) {
