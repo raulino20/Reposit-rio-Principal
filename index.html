@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
@@ -13,36 +13,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Oficial </title>
 </head>
-<body class="body">
+<body id="Corpo">
     <header class="header" id='top'> 
       <!-- BLOCO RESPONSIVO (768PX) -->
-<div class=" containerH" id="OpenH"> 
-   
-   <button class="btn BtnH" type="button" onclick="HamburguerOn()" id="buttonH2"><i class="bi bi-x-circle" id="BtnHOff"></i></button>
+      <div class=" containerH" id="OpenH">    
+         <button class="btn BtnH"  type="button" onclick="HamburguerOn()" id="buttonH2"><i class="bi bi-x-circle" id="BtnHOff"></i></button>
+          <ol class="list-group" id="ListHam">
+             <li class="list-group-item ListH"><a href='#Conhecimento'  onclick="CloseH()"><button class="btn btnLH" ><i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
+             <li class="list-group-item ListH "> <a href="#Projects" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-gear-fill"></i> PROJETOS</button></a></li>
+             <li class="list-group-item ListH "> <a href="#Contacts" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-telephone-fill"></i> Contatos</button></a></li>
+          </ol> 
+        <label class="label labelH">
+        <h5 class= "Copy" >&copy;Cauã Raulino</h5>
+        </label>
+       </div>
+       
+     
+       
 
- <ol class="list-group" id="ListHam">
-    <li class="list-group-item ListH"><a href='#Conhecimento'  onclick="CloseH()"><button class="btn btnLH" ><i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
-    <li class="list-group-item ListH "> <a href="#Projects" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-gear-fill"></i> PROJETOS</button></a></li>
-    <li class="list-group-item ListH "> <a href="#Contacts" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-telephone-fill"></i> Contatos</button></a></li>
-   <!-- <li class="list-group-item ListH "><button class="btn btnLH">Exit</button></li> -->
- </ol>
-
- <label class="label labelH">
- <h5 class= "Copy" >&copy;Cauã Raulino</h5>
- </label>
-</div>
 <!--///-->
         <img src="imagens/LogoOficial.png" alt="" class="img">
 
 <nav class="navbar NavH">
-<ul class="list-group ListNav">
-    <li class="list-group-item ListItem"><a href="#Conhecimento"><button class="btn btnPC"><i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
+<ul class="list-group ListNav" aria-expanded="true">
+    <li class="list-group-item ListItem"><a href="#Conhecimento"><button class="btn btnPC"> <i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
     <li class="list-group-item ListItem"><a href="#Projects"><button class="btn btnPC"><i class="bi bi-gear-fill"></i> PROJETOS</button></a></li>
     <li class="list-group-item ListItem"><a href="#Contacts"><button class="btn btnPC"><i class="bi bi-telephone-fill"></i> CONTATOS</button></a></li>
-  <!--  <li class="list-group-item ListItem"><button class="btn btnPC">Exit</button></li> -->
+    <!--<li class="list-group-item ListItem"><button class="btn btnPC">Exit</button></li> -->
 </ul>
 
-<button class="btn BtnH" type="button" onclick="Hamburguer()" id='BtnChange'><i class="bi bi-list"id="BtnHOn"></i><i class="bi bi-list" id="BtnHOff"></i></button>
+<button class="btn BtnH" type="button" onclick="Hamburguer()" id='BtnChange'><i class="bi bi-list"id="BtnHOn" aria-expanded="false"></i><i class="bi bi-list" id="BtnHOff"></i></button>
 
 </nav>
 </header>
@@ -52,7 +52,7 @@
     
 <div class="container container-conteudo">
     <h1 class="text-light" data-aos="fade-right" data-aos-duration="1500">Cauã Raulino</h1>
-     <p class="text-Prin" data-aos="fade" data-aos-duration="1500">Me chamo Cauã Raulino, tenho 23 anos, estou aprendendo linguagem de marcação e de programação, uma area em que me identifico muito, gosto dos desafios, de poder usar minha criatividade para fazer designs e layouts; Na area da programação em si ja faço coisas basicas como mostrar resultados de contas tanto usando o console, um alert ou no Dom, Usando ferramentas como if{}else{} , Switch( ){} , For( ){} , While( ) , DoWhile( ){} ; entre outras... </p>
+     <p class="text-Prin" data-aos="fade" data-aos-duration="1500">Me chamo Cauã Raulino, tenho 22 anos, estou aprendendo linguagem de marcação e de programação, uma area em que me identifico muito, gosto dos desafios, de poder usar minha criatividade para fazer designs e layouts; Na area da programação em si ja faço coisas basicas como mostrar resultados de contas tanto usando o console, um alert ou no Dom, Usando ferramentas como if{}else{} , Switch( ){} , For( ){} , While( ) , DoWhile( ){} ; entre outras... </p>
 </div> 
     <img src="imagens/CauaRaulino.png" alt="" class="imgProgram" data-aos="flip-left" data-aos-duration="2000">
 </div>
@@ -61,11 +61,13 @@
 
 <div class="container-fluid container01" id='Conhecimento' data-aos="flip-left" data-aos-duration="1500">
     <h1 class="text-light text-center TitleCardContainer">CONHECIMENTOS</h1>
-    <div id="Controle" class="carousel slide caro" data-aos="fade-right" data-aos-duration="1500" data-bs-ride = "carousel" data-bs-duration = "8000">
+    <div id="Controle" class="carousel slide caro" data-aos="fade-right" data-aos-duration="1500" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
+
           <div class="carousel-item active">
+            
              <div class="card cartao1">
-                   <h3 class="TitleCar">HTML</h3>
+               <h3 class="TitleCar">HTML</h3>
                 <img class="w-50" src="https://cdn-icons-png.flaticon.com/256/121/121537.png" alt="First slide" >
                 <p class="TextCar"> Como todo programador, comecei na area da linguagem de marcação, aprendendo a fazer Tabelas, estudando as funções dos inputs, aprendendo diversas Tags que ajudam muito na construção de um site; atualmente, junto ao Bootstrap consigo fazer Carousel, Card, container-fluid, entre outros... e cada dia aprendendo mais . </p>
              </div>
@@ -73,25 +75,25 @@
 
           <div class="carousel-item ">
              <div class="card cartao2">
-                   <h3 class="TitleCar">CSS 3</h3>
+               <h3 class="TitleCar">CSS 3</h3>
                 <img class=" w-50" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/css-114-504273.png?f=webp" alt="Second slide" >
-                <p class="TextCar">atualmente é uma das areas que mais gosto de mexer, usando o sass (para um código mais limpo e otimizado) com as respectivas pastas, como common, page, imagens... usando display grid,flex,column, e a principal funcionalidade atualmente está sendo para o @media(){ }, para poder deixar o design responsivo, em 1440px , 1024px, 768px e 425px ( e ajustando é claro...). </p>
+                <p class="TextCar"> atualmente é uma das areas que mais gosto de mexer, usando o sass (para um código mais limpo e otimizado) com as respectivas pastas, como common, page, imagens... usando display grid,flex,column, e a principal funcionalidade atualmente está sendo para o @media(){ }, para poder deixar o design responsivo, em 1440px , 1024px, 768px e 425px ( e ajustando é claro...).  </p>
              </div>
           </div>
 
           <div class="carousel-item">
              <div class="card cartao3">
-                 <h3 class="TitleCar">JAVASCRIPT</h3>
+               <h3 class="TitleCar">JAVASCRIPT</h3>
                 <img class="w-50 " src="https://cdn.iconscout.com/icon/premium/png-256-thumb/js-23-244632.png" alt="Third slide">
-                <p class="TextCar">Ainda começando na Area do JS, atualmente estudando DOM, porém, ja sei fazer contas, usar Arrays, criar Objetos, usar a função Function() (Para usar em botões e fazer ações ) ,  addEventListener ( para fazer funções que tenham retorno no msm btn ), While (para um retorno continuo de algo), Do While (Fazer algo enquanto X for diferente de Y ), For () , entre outros...</p>
+                <p class="TextCar"> Ainda começando na Area do JS, atualmente estudando DOM, porém, ja sei fazer contas, usar Arrays, criar Objetos, usar a função Function() (Para usar em botões e fazer ações ) ,  addEventListener ( para fazer funções que tenham retorno no msm btn ), While (para um retorno continuo de algo), Do While (Fazer algo enquanto X for diferente de Y ), For () , entre outros... </p>
              </div>
           </div>
 
           <div class="carousel-item">
              <div class="card cartao4">
-                  <h3 class="TitleCar">BOOTSTRAP</h3>
+               <h3 class="TitleCar">BOOTSTRAP</h3>
                 <img class="w-50" src="https://static-00.iconduck.com/assets.00/bootstrap-icon-256x256-pxrx4cf9.png" alt="four slide">
-                <p class="TextCar"> Sem Duvidas um dos melhores FrameWork Front-End, ótimo para criar um site com design mais Clear e bonito, otimo nas tags, como carousel, Card, container, container-fluid, form-control, table, atualmente sempre estou usando em todos os meus projetos, para conseguir sempre um visual limpo e visivel; como podem ver em <a href="#Projects"> Projetos</p>
+                <p class="TextCar"> Sem Duvidas um dos melhores FrameWork Front-End, ótimo para criar um site com design mais Clear e bonito, otimo nas tags, como carousel, Card, container, container-fluid, form-control, table, atualmente sempre estou usando em todos os meus projetos, como podem ver em <a href="#Projects"> Projetos</a>  </p>
              </div>
           </div>
 
@@ -110,53 +112,51 @@
     <div class="container-fluid container02" id="Projects">
 
       <div class="ContainerProjetos" id="GridPush">
-
-         <h1 class=" TitleCardContainer">Projetos<button class="btn btn-lg text-light border-0" disabled><i class="bi bi-clipboard-fill"></i></button></h1>
-
+         <h1 class=" TitleCardContainer">Projetos<button class="btn btn-lg text-light border-0" onclick="Criar()" disabled><i class="bi bi-arrow-up-circle-fill"></i></button></h1>
       <div class="card Card1">
-         <a href="https://raulino20.github.io/GTA6-SITE/" target="_blank">
-            <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100">
-            </a> 
+         <a href="https://raulino20.github.io/GTA6-SITE/#videoShow" target="_blank">
+            <img src="imagens/gta6-pic-oficial.jpg" alt="" class="w-100 h-100 Img">
+         </a>
              <h2>GTA 6 - Oficial</h2>
-            <p class="TextCard">No Hype Para GTA 6 (Grand Theft Auto ) Criei esse Site mostrando o por que da cidade de Miami ser escolhida, o que esperar do game , fiz com um visual meio neom para entrar no clima do game e de Miami em si, e no final o trailer do game, é simples , mas particularmente acho um grande passo . </p>
-        </div>
+         <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
+         
+       </div>
       
          <div class="card Card2">
           <a href="https://raulino20.github.io/GRID-FINAL/" target="_blank">
-            <img src="imagens/surf.jpg" alt="" class="w-100 h-100" >
+            <img src="imagens/surf.jpg" alt="" class="w-100 h-100 Img" >
           </a> 
              <h2>D-GRID</h2>
-           <p class="TextCard"> Quando ainda estava aprendendo sobre html e css responsivo criei essa pagina que fazia parte de um dos desafios do Curso que faço, o principal foi a responsividade em diferentes tamanhos de tela, foi um dos se não o primeiro que fiz com o css responsivo, e claro que curti muito o resultado . </p>
+           <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
          </div>
 
          <div class="card Card3" >
             
 
              <a href="https://raulino20.github.io/Spotify/" target="_blank">
-               <img src="imagens/spoty.webp" alt="" class="w-100 h-100" >
+               <img src="imagens/spoty.webp" alt="" class="w-100 h-100 Img" >
              </a> 
              <h2>Spotify</h2>
-            <p class="TextCard"> Tentando dar um passo a frente, tentei criar um "Clone" da dashboard do Spotify, pegando a essencia das cores neom fiz esse site relativamente simples mas que curti demais o resultado final .  </p>
+            <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
          </div>
          
          <div class="card Card4">
              
-             <a href="https://raulino20.github.io/TJS-ZONA-OESTE/" target="_blank">
+             <a href="" target="_blank">
                <img src="imagens/SantosFC.jpg" alt="" class="w-100 h-100">
              </a>
              <h2> Lista </h2>
-            <p class="TextCard">Uma Lista que é possivel Adicionar em sequencia 'objetos', sendo iterado com for, e remover criando uma segunda lista com itens excluidos (Para mais controle) .  </p>
+            <p class="TextCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo officiis error molestiae laudantium. Modi corporis nostrum itaque. Quia blanditiis alias est tenetur dolorem quos, qui quis vel explicabo veritatis?</p>
          </div>
       </div>
     </div>
 
     <div class="footer Final w-100 " id='Contacts' >
       <ul class="list-group ListFooter">
-         <a href="https://www.instagram.com/cauaraulino.15/" class="links"><li class="list-group-item ListF"><i class="bi bi-instagram" id="insta"> </i> Cauaraulino.15</li></a>
+         <a href="https://www.instagram.com/cauaraulino.15/" class="links"><li class="list-group-item ListF"><i class="bi bi-instagram" id="insta"> </i>Cauaraulino.15</li></a>
          <a href="https://github.com/raulino20" class="links"><li class="list-group-item ListF"><i class="bi bi-github"> </i> raulino20</li> </a>
-         <a href="https://www.facebook.com/caua.raulino/" class="links"><li class="list-group-item ListF"><i class="bi bi-facebook text-primary"> </i> Cauã Raulino</li></a>
-          <a href="https://wa.me/5511965404572?text=Olá,+Gostaria+de+um+serviço+seu.%3B+agrade%C3%A7o+%21" class="links"><li class="list-group-item ListF"><i class="bi bi-whatsapp text-success"> </i> WhatsApp</li></a>
-
+         <a href="" class="links"><li class="list-group-item ListF"><i class="bi bi-facebook text-primary"> </i> Cauã Raulino</li></a>
+         <a href="https://wa.me/5511965404572?text=irei+responder+o+mais+breve+possivel.%3B+agrade%C3%A7o+%21" class="links"><li class="list-group-item ListF"><i class="bi bi-whatsapp text-success"></i> WhatsApp</li></a>
       </ul>
 <label class="label label2"><h5 class="copy">&copy; Cauã Raulino</h5></label>
  
