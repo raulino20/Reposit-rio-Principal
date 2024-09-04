@@ -125,6 +125,18 @@ body {
   text-align: center;
 }
 
+.label2 {
+  display:flex;
+  color: rgb(159, 159, 159);
+  margin: 0.5rem;
+  align-self: flex-end;
+}
+@media(max-width:768px){
+.label2 {
+  display:none;
+ }
+}
+
 @media (max-width: 768px) {
   .ComeBackH {
     width: 100%;
@@ -587,11 +599,6 @@ body {
   .ListF {
     margin: 1rem;
   }
-}
-.label2 {
-  color: rgb(159, 159, 159);
-  margin: 0.5rem;
-  align-self: flex-end;
 }
 
 @media (max-width: 768px) {
