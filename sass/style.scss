@@ -16,7 +16,16 @@ body{
   gap: 0.5rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
- 
+}
+
+.label{
+    display: none;
+}
+@media(max-width:768px){
+.label{
+    display: flex;
+    justify-content: space-between;
+ }
 }
 
 
@@ -32,11 +41,16 @@ body{
 @media(max-width:768px){
    .header{
     z-index: 5;
+    display:block;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.797);
     margin-bottom: 2rem;
     padding:0;
   }
+}
+
+.CollapseH{
+    width: 100%;    
 }
 
 .text-Prin{
