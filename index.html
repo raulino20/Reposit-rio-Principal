@@ -14,21 +14,34 @@
 </head>
 <body id="Corpo">
     <header class="header" id='top'> 
-      <!-- BLOCO RESPONSIVO (768PX) -->
-      <div class=" containerH" id="OpenH">    
-         <button class="btn BtnH"  type="button" onclick="HamburguerOn()" id="buttonH2"><i class="bi bi-x-circle" id="BtnHOff"></i></button>
-          <ol class="list-group" id="ListHam">
-             <li class="list-group-item ListH"><a href='#Conhecimento'  onclick="CloseH()"><button class="btn btnLH" ><i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
-             <li class="list-group-item ListH "> <a href="#Projects" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-gear-fill"></i> PROJETOS</button></a></li>
-             <li class="list-group-item ListH "> <a href="#Contacts" onclick="CloseH()"><button class="btn btnLH"><i class="bi bi-telephone-fill"></i> Contatos</button></a></li>
-          </ol> 
-        <label class="label labelH">
-        <h5 class= "Copy" >&copy;Cauã Raulino</h5>
-        </label>
-       </div>
-       
-     
-       
+
+<div class="label">     
+      <img src="imagens/LogoOficial.png" alt="" class="img">   
+      <button class="btn d-block border-0 d-md-none" aria-expanded="false" data-bs-toggle="collapse"  data-bs-target="#Aqui"><h3><i class="bi bi-info-square-fill text-light"></i></h3></button>
+</div>
+        
+<img src="imagens/LogoOficial.png" alt="" class="img d-none d-md-block">  
+
+<nav class="navbar NavH">
+
+<ul class="list-group ListNav" aria-expanded="true">
+    <li class="list-group-item ListItem"><a href="#Conhecimento"><button class="btn btnPC"> <i class="bi bi-info-square-fill"></i> CONHECIMENTOS</button></a></li>
+    <li class="list-group-item ListItem"><a href="#Projects"><button class="btn btnPC"><i class="bi bi-gear-fill"></i> PROJETOS</button></a></li>
+    <li class="list-group-item ListItem"><a href="#Contacts"><button class="btn btnPC"><i class="bi bi-telephone-fill"></i> CONTATOS</button></a></li>
+</ul>
+
+<!--HEADER EM 768PX -->
+
+ <div class="collapse collapse-vertical  CollapseH collapse-vertical" aria-expanded="true" id="Aqui">
+   
+   <ul class="navbar-nav w-100 d-block d-md-none">
+      <li class="nav-item w-100 text-center bg-secondary border"><a href="" class="text-light text-decoration-none border-0"><h5><i class="bi bi-info-square-fill"> CONHECIMENTOS</i></h5> </a></li>
+      <li class="nav-item w-100 text-center bg-secondary border"><a href="" class="text-light text-decoration-none border-0"><h5><i class="bi bi-gear-fill"> PROJETOS</i></h5></a></li> 
+      <li class="nav-item w-100 text-center bg-secondary border"><a href="" class="text-light text-decoration-none border-0"> <h5><i class="bi bi-telephone-fill"> CONTATOS</i></h5></a></li>
+   </ul> 
+
+</div>
+</nav>
 
 <!--///-->
         <img src="imagens/LogoOficial.png" alt="" class="img">
