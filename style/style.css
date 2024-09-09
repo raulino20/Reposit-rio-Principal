@@ -18,6 +18,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.label{
+    display: none;
+}
+@media(max-width:768px){
+.label{
+    display: flex;
+    justify-content: space-between;
+ }
+}
+
 .header {
   border-bottom: 1px solid rgb(162, 0, 243);
   background-color: rgba(8, 8, 8, 0.54);
@@ -31,11 +41,18 @@ body {
   .header {
     z-index: 5;
     background-color: rgba(8, 8, 8, 0.84);
+    display:block;
     position: fixed;
     margin-bottom: 2rem;
     padding: 0;
   }
 }
+
+
+.CollapseH{
+  width: 100%;
+} 
+
 .text-Prin {
   color: #dc2929;
   font-family: fantasy;
