@@ -101,3 +101,12 @@ let Elementos = document.getElementsByClassName('ListH')
           Posicionar.appendChild(NewCard)
       }
     }
+
+document.querySelectorAll('.nav-link'),forEach(link =>{
+        link.addEventListener('click',function(){
+        const navbarcollapse = document.getElementById('Aqui))
+if(navbarcollapse.classList.contains('show')){
+        navbarcollapse.classList.remove('show')        
+     }
+  })
+})
