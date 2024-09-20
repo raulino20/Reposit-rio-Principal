@@ -32,6 +32,7 @@ body {
   border-bottom: 1px solid rgb(162, 0, 243);
   background-color: rgba(8, 8, 8, 0.54);
   padding: 1rem;
+  overflow:hidden;
   width: 100%;
   display: flex;
   justify-content: space-between;
