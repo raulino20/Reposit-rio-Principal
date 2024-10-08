@@ -642,8 +642,9 @@ grid-column:1/4;
 
 .ContainerFlecha {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   height: 150px;
+  margin-bottom:2rem;
   position: fixed;
   width: 100px;
   align-items: center;
