@@ -101,3 +101,9 @@ let Elementos = document.getElementsByClassName('ListH')
           Posicionar.appendChild(NewCard)
       }
     }
+
+function Whats(){
+    const Text = `Olá, Preciso de um Serviço seu. ` 
+    const Url = `https://wa.me/<5511965404572?text=${Text}`
+    window.open(Url,'_blank')    
+}
