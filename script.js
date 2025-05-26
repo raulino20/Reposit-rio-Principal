@@ -104,7 +104,7 @@ let Elementos = document.getElementsByClassName('ListH')
 
 const WP = document.getElementById('Whats')
 
-WP.addEventListerner('click',function(){
+WP.addEventListener('click',function(){
     const Text = `Olá, Preciso de um Serviço seu. ` 
     const Url = `https://wa.me/<5511965404572?text=${Text}`
     window.open(Url,'_blank')    
