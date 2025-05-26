@@ -660,6 +660,16 @@ grid-column:1/4;
   z-index: 2;
 }
 
+@media(max-width:768px){
+
+  .ContainerFlecha{
+    height:5rem;
+    width:max-content;
+    boorder-radius:35%;
+    background-color:#0c0c0cad;
+  }
+}
+
 .Flecha {
   width: max-content;
   height: max-content;
