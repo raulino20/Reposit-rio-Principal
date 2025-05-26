@@ -642,6 +642,8 @@ grid-column:1/4;
 
 .ContainerFlecha {
   display: flex;
+  flex-direction:column;
+  gap:1rem;
   justify-content: center;
   height: 150px;
   margin-bottom:2rem;
