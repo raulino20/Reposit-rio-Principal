@@ -24,6 +24,7 @@ body {
 @media(max-width:768px){
 .label{
     display: flex;
+    height:4rem;
     justify-content: space-between;
  }
 }
