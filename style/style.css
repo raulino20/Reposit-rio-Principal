@@ -665,7 +665,7 @@ grid-column:1/4;
   .ContainerFlecha{
     height:5rem;
     width:max-content;
-    boorder-radius:35%;
+    border-radius:35%;
     background-color:#0c0c0cad;
   }
 }
