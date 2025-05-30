@@ -18,7 +18,7 @@
 
 <div class="label">     
       <img src="imagens/LogoOficial.png" alt="" class="img">   
-      <button class="btn d-block border-0 h-100 d-md-none" aria-expanded="false" data-bs-toggle="collapse"  data-bs-target="#Aqui"><h3><i class="bi bi-info-square-fill text-light"></i></h3></button>
+      <button class="btn d-block border-0 h-100 d-md-none" aria-expanded="false" data-bs-toggle="collapse" data-bs-target="#Aqui"><h3><i class="bi bi-info-square-fill text-light"></i></h3></button>
 </div>
         
 <img src="imagens/LogoOficial.png" alt="" class="img d-none d-md-block">  
@@ -33,12 +33,12 @@
 
 <!--HEADER EM 768PX -->
 
- <div class="collapse collapse-vertical  CollapseH collapse-vertical" aria-expanded="true" id="Aqui">
+ <div class="collapse collapse-vertical  CollapseH" aria-expanded="true" id="Aqui">
    
-   <ul class="navbar-nav w-100 d-block d-md-none">
-      <li class="nav-item w-100 text-center bg-transparent border"><a href="#Conhecimento" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5><i class="bi bi-info-square-fill"> CONHECIMENTOS</i></h5></a></li>
-      <li class="nav-item w-100 text-center bg-trabsparent border"><a href="#Projects" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5><i class="bi bi-gear-fill"> PROJETOS</i></h5></a></li> 
-      <li class="nav-item w-100 text-center bg-transparent border"><a href="#Contacts" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5><i class="bi bi-telephone-fill"> CONTATOS</i></h5></a></li>
+   <ul class="navbar-nav w-100 d-flex d-md-none gap-2">
+      <li class="nav-item w-100 text-center bg-transparent border"><a href="#Conhecimento" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5 class="UlSm"><i class="bi bi-info-square-fill"> CONHECIMENTOS</i></h5></a></li>
+      <li class="nav-item w-100 text-center bg-trabsparent border"><a href="#Projects" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5 class="UlSm"><i class="bi bi-gear-fill"> PROJETOS</i></h5></a></li> 
+      <li class="nav-item w-100 text-center bg-transparent border"><a href="#Contacts" class="text-light text-decoration-none border-0" onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('Aqui')).toggle();"> <h5 class="UlSm"><i class="bi bi-telephone-fill"> CONTATOS</i></h5></a></li>
    </ul> 
 
 </div>
@@ -59,15 +59,15 @@
 
 
 <div class="container-fluid container01" id='Conhecimento' data-aos="flip-left" data-aos-duration="1500">
-    <h1 class="text-light text-center TitleCardContainer">CONHECIMENTOS</h1>
-    <div id="Controle" class="carousel slide caro" data-aos="fade-right" data-aos-duration="1500" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-inner">
-
+    <h1 class="text-light text-center TitleCardCaro">CONHECIMENTOS</h1>
+    <div id="Controle" class="carousel slide caro" data-aos="fade-right" data-aos-duration="1500" data-bs-ride="carousel" data-bs-interval="100000">
+        
+      <div class="carousel-inner Cinner">
           <div class="carousel-item active">
             
-             <div class="card cartao1">
+             <div class="card cartao1"> 
                <h3 class="TitleCar">HTML</h3>
-                <img class="w-50" src="https://cdn-icons-png.flaticon.com/256/121/121537.png" alt="First slide" >
+                <img class=" ImgCard" src="https://cdn-icons-png.flaticon.com/256/121/121537.png" alt="First slide" >
                 <p class="TextCar"> Como todo programador, comecei na area da linguagem de marcação, aprendendo a fazer Tabelas, estudando as funções dos inputs, aprendendo diversas Tags que ajudam muito na construção de um site; atualmente, junto ao Bootstrap consigo fazer Carousel, Card, container-fluid, entre outros... e cada dia aprendendo mais . </p>
              </div>
           </div>
@@ -75,7 +75,7 @@
           <div class="carousel-item ">
              <div class="card cartao2">
                <h3 class="TitleCar">CSS 3</h3>
-                <img class=" w-50" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/css-114-504273.png?f=webp" alt="Second slide" >
+                <img class="ImgCard" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/css-114-504273.png?f=webp" alt="Second slide" >
                 <p class="TextCar"> atualmente é uma das areas que mais gosto de mexer, usando o sass (para um código mais limpo e otimizado) com as respectivas pastas, como common, page, imagens... usando display grid,flex,column, e a principal funcionalidade atualmente está sendo para o @media(){ }, para poder deixar o design responsivo, em 1440px , 1024px, 768px e 425px ( e ajustando é claro...).  </p>
              </div>
           </div>
@@ -83,7 +83,7 @@
           <div class="carousel-item">
              <div class="card cartao3">
                <h3 class="TitleCar">JAVASCRIPT</h3>
-                <img class="w-50 " src="https://cdn.iconscout.com/icon/premium/png-256-thumb/js-23-244632.png" alt="Third slide">
+                <img class="ImgCard" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/js-23-244632.png" alt="Thrird slide">
                 <p class="TextCar"> Ainda começando na Area do JS, atualmente estudando DOM, porém, ja sei fazer contas, usar Arrays, criar Objetos, usar a função Function() (Para usar em botões e fazer ações ) ,  addEventListener ( para fazer funções que tenham retorno no msm btn ), While (para um retorno continuo de algo), Do While (Fazer algo enquanto X for diferente de Y ), For () , entre outros... </p>
              </div>
           </div>
@@ -91,17 +91,17 @@
           <div class="carousel-item">
              <div class="card cartao4">
                <h3 class="TitleCar">BOOTSTRAP</h3>
-                <img class="w-50" src="https://static-00.iconduck.com/assets.00/bootstrap-icon-256x256-pxrx4cf9.png" alt="four slide">
+                <img class="ImgCard" src="https://static-00.iconduck.com/assets.00/bootstrap-icon-256x256-pxrx4cf9.png" alt="four slide">
                 <p class="TextCar"> Sem Duvidas um dos melhores FrameWork Front-End, ótimo para criar um site com design mais Clear e bonito, otimo nas tags, como carousel, Card, container, container-fluid, form-control, table, atualmente sempre estou usando em todos os meus projetos, como podem ver em <a href="#Projects"> Projetos</a>  </p>
              </div>
           </div>
 
     </div>
-        <a class="carousel-control-prev" href="#Controle" role="button" data-slide="prev">
+        <a class="carousel-control-prev LinkCaro" href="#Controle" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon BtnCaro" aria-hidden="true"></span>
           <span class="sr-only"></span>
         </a>
-        <a class="carousel-control-next" href="#Controle" role="button" data-slide="next">
+        <a class="carousel-control-next LinkCaro" href="#Controle" role="button" data-slide="next">
           <span class="carousel-control-next-icon BtnCaro" aria-hidden="true"></span>
           <span class="sr-only"></span>
         </a>
@@ -170,7 +170,7 @@
  
 
    <div class="container ContainerFlecha">
-   <h3 class="m-0"><a href='#Init'><i class="bi bi-arrow-up-circle-fill text-light  Flecha"></i></a> </h3>
+   <h3 class="m-0" id="Reload" data-bs-target="#Aqui"><a href='#Init'><i class="bi bi-arrow-up-circle-fill text-light  Flecha"></i></a> </h3>
     <h3 class='m-0' id ='Whats'> <i class = "bi bi-whatsapp text-success"></i> </h3>
    </div>
 </div>
@@ -185,6 +185,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-
-</html>
