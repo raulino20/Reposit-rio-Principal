@@ -102,7 +102,20 @@ let Elementos = document.getElementsByClassName('ListH')
       }
     }
 
+//FECHAR O CONTAINER APÓS O CLICK PARA VOLTAR AO HEADER (TAMANHO 768PX OU MENOS)
+    let CollapseSM = document.getElementById('Aqui')
+    document.getElementById('Reload').addEventListener('click',function(){
+  
+      if(CollapseSM.getAttribute('class', 'collapse show')){ 
+         CollapseSM.setAttribute('class', 'collapse collapse-vertical collapseH')
+      }else{
 
+        CollapseSM.Attribute('class', 'collapse-verical collapse collapseH')
+
+      }
+   })
+
+//LINK PARA WHATS
 document.getElementById('Whats').addEventListener('click',function(){
     const Text = `Olá, Preciso de um Serviço seu. ` 
     const Url = `https://wa.me/<5511965404572?text=${Text}`
