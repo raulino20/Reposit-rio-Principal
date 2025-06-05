@@ -21,7 +21,7 @@ body {
 @media(max-width:768px){
 .body{
   height:max-content;
-  overflow:hidden;
+  overflow-x:hidden;
  }
 }
 
