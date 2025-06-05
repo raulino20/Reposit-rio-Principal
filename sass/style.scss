@@ -15,8 +15,16 @@ body {
   background-image: url(../imagens/backgroundBody.jpg);
   background-size: cover;
   gap: 0.5rem;
+  overflow:hidden;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+@media(max-width:768px){
+  .body{
+    height:max-content;
+    overflow:hidden;
+  }
 }
 
 .label{
