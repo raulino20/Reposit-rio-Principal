@@ -20,8 +20,20 @@ body {
 }
 
 @media(max-width:768px){
+.body{
+  height:max-content;
+  overflow-x:hidden;
+  background-size:cover;
+ }
+}
+@media(max-width:425px){
   .body{
-    height:max-content;
+    background-size:cover;
+  }
+}
+@media(max-width:320px){
+  .body{
+    background-size:cover;
   }
 }
 
