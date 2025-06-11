@@ -10,7 +10,7 @@
 
 body {
   height: max-content;
-  background-image: url(sass/image/backgroundBody.jpg);
+  background-image: url(./sass/image/backgroundBody.jpg);
   background-size: cover;
   overflow-x: hidden;
   gap: 0.5rem;
