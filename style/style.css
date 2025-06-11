@@ -9,32 +9,22 @@
 }
 
 body {
-  height: 100%;
-  background-image: url(../imagens/backgroundBody.jpg);
+  height: max-content;
+  background-image: url(../sass/image/backgroundBody.jpg);
   background-size: cover;
+  overflow-x: hidden;
   gap: 0.5rem;
   background-attachment: fixed;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
-@media(max-width:768px){
-.body{
-  height:max-content;
-  overflow-x:hidden;
-  background-size:cover;
- }
-}
-@media(max-width:425px){
-  .body{
-    background-size:cover;
+@media (max-width: 768px) {
+  body {
+    height: max-content;
+    overflow-x: hidden;
   }
 }
-@media(max-width:320px){
-  .body{
-    background-size:cover;
-  }
-}
-
 .label {
   display: none;
 }
@@ -249,7 +239,7 @@ body {
   .container00 {
     display: flex;
     height: 100%;
-    background-image: url(../imagens/CauaRaulino.png);
+    background-image: url(../sass/image/CauaRaulino.png);
     background-size: cover;
     padding: 0;
     margin-bottom: 0;
@@ -283,10 +273,6 @@ body {
     height: max-content;
   }
 }
-.container02 {
-  display: block;
-}
-
 @media (max-width: 425px) {
   .container01 {
     padding: 1rem;
@@ -304,6 +290,10 @@ body {
     height: 65vh;
   }
 }
+.container02 {
+  display: block;
+}
+
 .ContainerProjetos {
   height: max-content;
   margin: 1rem auto;
@@ -601,21 +591,20 @@ body {
     height: max-content;
   }
 }
-
-.ImgCard{
-  width:auto;
-  height:auto;
-  border-radius:10px;
-  margin:0 auto;
+.ImgCard {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
 }
-@media(max-width:1024px){
-  .ImgCard{
-    width:50%;
-    height:50%;
-    border-radius:10px;
+
+@media (max-width: 1024px) {
+  .ImgCard {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
   }
 }
-
 @media (max-width: 768px) {
   .ImgCard {
     width: 50%;
@@ -826,6 +815,41 @@ body {
   background-color: rgb(55, 55, 55);
 }
 
+.containerCertification {
+  display: block;
+  text-align: center;
+  margin-top: 3rem;
+  height: 60vh;
+}
+
+@media (max-width: 768px) {
+  .containerCertification {
+    height: 70vh;
+  }
+}
+@media (max-width: 425px) {
+  .containerCertification {
+    height: 50vh;
+  }
+}
+@media (max-width: 320px) {
+  .containerCertification {
+    height: 40vh;
+  }
+}
+.ContainerCerti {
+  margin: 2rem 2rem 2rem 2rem;
+  height: max-content;
+}
+
+@media (max-width: 768px) {
+  .ContainerCerti {
+    margin: 2rem auto auto auto;
+    border: 1px solid white;
+    height: max-content;
+    padding: 0;
+  }
+}
 @media (max-width: 768px) {
   .Final {
     text-align: center;
@@ -939,5 +963,7 @@ body {
   margin: 0 auto;
   border-radius: 100%;
 }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
