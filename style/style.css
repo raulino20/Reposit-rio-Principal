@@ -838,7 +838,7 @@ body {
   }
 }
 .ContainerCerti {
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 2rem auto 2rem auto;
   height: max-content;
 }
 
