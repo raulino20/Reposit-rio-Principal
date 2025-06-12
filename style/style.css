@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-body {
+html,body {
   height: max-content;
   background-image: url(../sass/image/backgroundBody.jpg);
   background-size: cover;
