@@ -845,7 +845,6 @@ html,body {
 @media (max-width: 768px) {
   .ContainerCerti {
     margin: 2rem auto auto auto;
-    border: 1px solid white;
     height: max-content;
     padding: 0;
   }
