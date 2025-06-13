@@ -113,6 +113,11 @@ switch(valor){
 
   case '0':
     Container.innerText = ''
+    let ResetText = document.createElement('h3')
+    ResetText.innerText = ' SELECIONE UMA DAS OPÇÕES '
+    ResetText.style.color = '#aaaa'
+    Container.appendChild(ResetText)
+
     break
 
   case '1':
