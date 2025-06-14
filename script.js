@@ -103,6 +103,82 @@ let Elementos = document.getElementsByClassName('ListH')
     }
 ///////////////////////////////////////////////////////////////////////
 
+let GTA = document.getElementById('GtaButton')
+let GRID = document.getElementById('SURF')
+let SPOTY = document.getElementById('SPOTIFY')
+let SANTOS = document.getElementById('LIST')
+let SPACE = document.getElementById('SPACE')
+let GTA = document.getElementById('GTA')
+
+
+//////////// BTN GTA ///////////////
+document.getElementById('GtaButton').addEventListener('click',function(){
+
+  GRID.classList.remove('show')
+  SPOTY.classList.remove('show')
+  SANTOS.classList.remove('show')
+  SPACE.classList.remove('show') 
+
+}) 
+
+/////////////// BTN GRID //////////////////
+document.getElementById('GridBtn').addEventListener('click',function(){
+ 
+  GTA.classList.remove('show')
+  SPOTY.classList.remove('show')
+  SANTOS.classList.remove('show')
+  SPACE.classList.remove('show') 
+
+})
+
+////////////// BTN SPOTY ////////////////
+document.getElementById('SpotyBtn').addEventListener('click',function(){
+  
+  GTA.classList.remove('show')
+  GRID.classList.remove('show')
+  SANTOS.classList.remove('show')
+  SPACE.classList.remove('show') 
+
+})
+
+////////////// BTN SANTOS  ////////////////
+document.getElementById('SantosBtn').addEventListener('click',function(){
+  
+  GTA.classList.remove('show')
+  SPOTY.classList.remove('show')
+  GRID.classList.remove('show')
+  SPACE.classList.remove('show')
+
+})
+
+///////////////// BTN SPACE ////////////////
+document.getElementById('SpaceBtn').addEventListener('click',function(){
+        
+  SANTOS.classList.remove('show')
+  GTA.classList.remove('show')
+  SPOTY.classList.remove('show')
+  GRID.classList.remove('show')
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //////////  CONTAINER DOS CERTIFICADOS /////////////////////// 
 let Container = document.getElementById('Certificado') 
 
