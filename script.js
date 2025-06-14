@@ -103,7 +103,6 @@ let Elementos = document.getElementsByClassName('ListH')
     }
 ///////////////////////////////////////////////////////////////////////
 
-let GTA = document.getElementById('GtaButton')
 let GRID = document.getElementById('SURF')
 let SPOTY = document.getElementById('SPOTIFY')
 let SANTOS = document.getElementById('LIST')
