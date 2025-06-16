@@ -200,8 +200,10 @@ switch(valor){
   let WIDT = window.matchMedia('(max-width:768px)')
   const HTML = document.createElement('img')
   
-  HTML.src = 'public/imagens/Certificado HTML5.jpg'
+    HTML.src = 'public/imagens/Certificado HTML5.jpg'
     HTML.alt = 'IMG-HTML'
+    HTML.setAttribute('data-aos', 'fade') 
+    HTML.setAttribute('data-aos-duration','2000')
     HTML.style.margin = 'auto auto auto auto'
 
     HTML.style.transform = 'matrix(1, 0, 0,1, 0, 0)'
@@ -226,7 +228,11 @@ switch(valor){
   
     CSS.src = 'public/imagens/Certificado CSS.jpg'
     CSS.alt = 'IMG-CSS'
-  if(WIDT2.matches){
+    
+    CSS.setAttribute('data-aos', 'fade') 
+    CSS.setAttribute('data-aos-duration','2000')
+  
+if(WIDT2.matches){
     CSS.style.width = '100%'
     console.log('CSS - Mobile')
   }else{
@@ -247,6 +253,10 @@ switch(valor){
 
     CSSM.src = 'public/imagens/Certificado CSS MODERNO.jpg'
     CSSM.alt = 'IMG-CSSM'
+   
+    CSSM.setAttribute('data-aos', 'fade') 
+    CSSM.setAttribute('data-aos-duration','2000')
+                
   if(WIDT3.matches){
      CSSM.style.width = '100%'
      console.log('CSS MODERNO - Mobile')
@@ -268,6 +278,10 @@ switch(valor){
 
     BOOTSTRAP.src = 'public/imagens/Certificado Bootstrap.jpg'
     BOOTSTRAP.alt = 'IMG-BOOTSTRAP'
+
+    BOOTSTRAP.setAttribute('data-aos', 'fade') 
+    BOOTSTRAP.setAttribute('data-aos-duration','2000')
+                
   if(WIDT4.matches){
       BOOTSTRAP.style.width = '100%'
       console.log('BOOTSTRAP - Mobile')
@@ -289,6 +303,9 @@ switch(valor){
 
     SASS.src = 'public/imagens/Certificado SASS.jpg'
     SASS.alt = 'IMG-SASS'
+
+    SASS.setAttribute('data-aos', 'fade') 
+    SASS.setAttribute('data-aos-duration','2000')
     
   if(WIDT5.matches){
       SASS.style.width = '100%'
