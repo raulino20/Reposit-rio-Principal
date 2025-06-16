@@ -183,9 +183,9 @@ let Container = document.getElementById('Certificado')
 
 document.getElementById('Open').addEventListener('change',function(){
   let valor = this.value 
-  
-switch(valor){
 
+switch(valor){
+                
   case '0':
     Container.innerText = ''
     let ResetText = document.createElement('h3')
@@ -193,60 +193,60 @@ switch(valor){
     ResetText.style.color = '#aaaa'
     Container.appendChild(ResetText)
 
-    break
+ break
 
-  case '1':
-  Container.innerText = ''
-  let WIDT = window.matchMedia('(max-width:768px)')
-  const HTML = document.createElement('img')
+ case '1':
+   Container.innerText = ''
+   let WIDT = window.matchMedia('(max-width:768px)')
+   const HTML = document.createElement('img')
   
-    HTML.src = 'public/imagens/Certificado HTML5.jpg'
-    HTML.alt = 'IMG-HTML'
-    HTML.setAttribute('data-aos', 'fade') 
-    HTML.setAttribute('data-aos-duration','2000')
-    HTML.style.margin = 'auto auto auto auto'
+     HTML.src = 'public/imagens/Certificado HTML5.jpg'
+     HTML.alt = 'IMG-HTML'
+     HTML.setAttribute('data-aos', 'fade') 
+     HTML.setAttribute('data-aos-duration','2000')
+     HTML.style.margin = 'auto auto auto auto'
 
     HTML.style.transform = 'matrix(1, 0, 0,1, 0, 0)'
-  if(WIDT.matches){
+   if(WIDT.matches){
 
-    HTML.style.width = '100%'
-    console.log('HTML5 - Mobile')
-   }else{
-    HTML.style.width = '50%'
-    console.log('HTML5 - Desktop')
-  }
+     HTML.style.width = '100%'
+     console.log('HTML5 - Mobile')
+    }else{
+     HTML.style.width = '50%'
+     console.log('HTML5 - Desktop')
+   }
 
    Container.appendChild(HTML)
    console.log('HTML')
    
-  break
+break
     
-  case '2':
-  Container.innerText = ''
-  let WIDT2 = window.matchMedia('(max-width:768px)')
-  const CSS = document.createElement('img')
+case '2':
+   Container.innerText = ''
+   let WIDT2 = window.matchMedia('(max-width:768px)')
+   const CSS = document.createElement('img')
   
-    CSS.src = 'public/imagens/Certificado CSS.jpg'
-    CSS.alt = 'IMG-CSS'
+     CSS.src = 'public/imagens/Certificado CSS.jpg'
+     CSS.alt = 'IMG-CSS'
     
-    CSS.setAttribute('data-aos', 'fade') 
-    CSS.setAttribute('data-aos-duration','2000')
+     CSS.setAttribute('data-aos', 'fade') 
+     CSS.setAttribute('data-aos-duration','2000')
   
-if(WIDT2.matches){
-    CSS.style.width = '100%'
-    console.log('CSS - Mobile')
-  }else{
-    CSS.style.width = '50%'
-    console.log('CSS - Desktop')
-  }
+  if(WIDT2.matches){
+     CSS.style.width = '100%'
+     console.log('CSS - Mobile')
+   }else{
+     CSS.style.width = '50%'
+     console.log('CSS - Desktop')
+   }
     CSS.style.margin = 'auto auto auto auto'
  
     Container.appendChild(CSS)
     console.log('CSS')
 
-  break
+break
 
-  case '3':
+case '3':
   Container.innerText = ''
   let WIDT3= window.matchMedia('(max-width:768px)')
   const CSSM = document.createElement('img')
@@ -269,9 +269,9 @@ if(WIDT2.matches){
     Container.appendChild(CSSM)
     console.log('CSS MODERNO')
 
-  break
+break
 
-  case '4':
+case '4':
   Container.innerText = ''
   let WIDT4 = window.matchMedia('(max-width:768px)')
   const BOOTSTRAP = document.createElement('img')
@@ -282,7 +282,7 @@ if(WIDT2.matches){
     BOOTSTRAP.setAttribute('data-aos', 'fade') 
     BOOTSTRAP.setAttribute('data-aos-duration','2000')
                 
-  if(WIDT4.matches){
+if(WIDT4.matches){
       BOOTSTRAP.style.width = '100%'
       console.log('BOOTSTRAP - Mobile')
   }else{  
@@ -294,9 +294,9 @@ if(WIDT2.matches){
     Container.appendChild(BOOTSTRAP)
     console.log('BOOTSTRAP')
 
-  break
+break
 
-  case '5':
+case '5':
     Container.innerText = ''
     let WIDT5 = window.matchMedia('(max-width:768px)')
     const SASS = document.createElement('img')
@@ -319,7 +319,7 @@ if(WIDT2.matches){
     Container.appendChild(SASS)
     console.log('SASS')
 
-  break
+break
 
   }
 }) 
