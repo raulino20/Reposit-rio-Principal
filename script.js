@@ -111,7 +111,7 @@ let GTA = document.getElementById('GTA')
 
 
 //////////// BTN GTA ///////////////
-document.getElementById('GtaButton').addEventListener('click',function(){
+document.getElementById('GtaBtn').addEventListener('click',function(){
 
   GRID.classList.remove('show')
   SPOTY.classList.remove('show')
