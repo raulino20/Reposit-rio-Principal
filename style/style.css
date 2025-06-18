@@ -593,7 +593,7 @@ html,body {
 }
 .ImgCard {
   width: auto;
-  height: auto;
+  height: 40%;
   border-radius: 10px;
   margin: 0 auto;
 }
