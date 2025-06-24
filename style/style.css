@@ -887,6 +887,7 @@ html,body {
 }
 .label2 {
   display: flex;
+  justify-content:space-evenly;
   color: rgb(216, 216, 216);
   margin: 0.5rem;
   align-self: flex-end;
@@ -901,6 +902,7 @@ html,body {
   }
 }
 .copy {
+  margin:0;
   display: block;
   text-decoration: underline;
   text-underline-offset: 0.1rem;
@@ -956,6 +958,14 @@ html,body {
     background-color: rgba(12, 12, 12, 0.6784313725);
   }
 }
+
+
+.OneImg{
+ width: 30%;
+box-shadow: 0 0.1rem rgb(216, 216, 216);
+ margin: 0 0 0 0;
+}
+
 .Flecha {
   width: max-content;
   height: max-content;
