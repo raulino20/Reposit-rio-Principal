@@ -948,6 +948,7 @@ margin-top: 2rem;
 
 .label2 {
   display:flex;
+  justify-content:space-evenly;
   color: rgb(216, 216, 216);
   margin: 0.5rem;
   align-self: flex-end;
@@ -961,6 +962,7 @@ margin-top: 2rem;
  }
 }
 .copy{
+  margin:0;
   display: block;
   text-decoration: underline;
   text-underline-offset: 0.1rem;
@@ -1019,6 +1021,13 @@ margin-top: 2rem;
     background-color:#0c0c0cad;
   }
 }
+
+.OneImg{
+ width: 30%;
+box-shadow: 0 0.1rem rgb(216, 216, 216);
+ margin: 0 0 0 0;
+}
+
 
 .Flecha {
   width: max-content;
